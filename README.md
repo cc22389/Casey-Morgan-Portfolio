@@ -1,16 +1,17 @@
 ### Casey-Morgan-Portfolio
-My online Portfolio
+Casey Morgans online Portfolio
 
 ### Description
-Includes About me, Contact Page, and a gallery of my projects.
+Includes About me and a gallery or Portfolio my projects.
 
 
 ### Links
-https://cc22389.github.io/Casey-Morgan-Portfolio/index.html
+Deployed URL: https://cc22389.github.io/Casey-Morgan-Portfolio/index.html
 
-https://github.com/cc22389/Casey-Morgan-Portfolio.git
+Repository: https://github.com/cc22389/Casey-Morgan-Portfolio.git
 
 
 ### Screenshots
-
+![About Me Demo](./Assets/Images/About-Me.PNG)
+![Portfolio Demo](./Assets/Images/Portfolio.PNG)
 

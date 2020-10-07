@@ -1,12 +1,15 @@
 .navbar-light{ 
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h1{
     background-color: rgb(4, 197, 197);
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     color: white;
-    font-size: xx-large;  
-    padding-left: 10px;
-    padding-right: 10px;
-    
+    font-size: 40px;
+    margin-left: 30px;
 }
 
 .navbar-nav{
@@ -18,6 +21,10 @@ body{
     background-image: url("./Images/grayLeaf.jpg");
 }
 
+.container {
+    float: left;
+}
+
 .card-title{
     color: rgb(4, 197, 197);
     font-family: 'Times New Roman', Times, serif;
@@ -26,27 +33,53 @@ body{
 }
 
 .card{
-    margin-top: 60px;
     margin-left: 40px;
-    float: left;
-    
-    
-} 
-
-#dummy-images{
-    margin-top: 30px;
-    margin-right: 10px;
-    margin-bottom: 30px;
-    margin-left: 60px;
-    
-}
-
-.container{
+    margin-top: 80px;
+    margin-right: 40px;    
+    background-color: rgb(251, 252, 253);
+    height: auto;
     width: 100%;
 }
 
+ul{
+    list-style-type: none;
+}
+
+.PWG {
+    height: auto;
+    width: 100%;
+}
+
+
 /* I understand the below @media css isn't finished, still confused on this... */
 
-@media (min-width: 400px){}
-@media (min-width: 768px){}
-@media (min-width: 992px){}
+@media only screen and (max-width: 400px){
+    body{
+        width: 100% !important;
+        height: auto;
+    }
+    .card {
+        height: auto;
+        Width: 80% !important;
+    }
+}
+@media only screen and (max-width: 768px){
+    body{
+        width: 100% !important;
+        height: auto;
+    }
+    .card {
+        height: auto;
+        Width: 80% !important;
+    }
+}
+@media only screen and (min-width: 992px){
+    body{
+        width: 100% !important;
+        height: auto;
+    }
+    .card {
+        height: auto;
+        Width: 80% !important;
+    }
+}
