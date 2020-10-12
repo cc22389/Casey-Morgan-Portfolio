@@ -2,18 +2,18 @@ html{
     position: relative;
     min-height: 100%;
 }
+
+.navbar-brand {
+    background-color: rgb(4, 197, 197) !important;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white !important;
+    font-size: 40px;
+    margin-left: 30px;
+}
 .navbar-light{ 
     padding-left: 10px;
     padding-right: 10px;
-}
-
-h1{
-    background-color: rgb(4, 197, 197);
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    color: white;
-    font-size: 40px;
-    margin-left: 30px;
 }
 
 .navbar-nav{
@@ -40,8 +40,15 @@ body{
 .card{
     margin-left: 40px;
     margin-top: 60px;
+    margin-bottom: 100px;
     background-color: rgb(251, 252, 253);
 } 
+
+.card-body{
+    height: auto;
+    width: 100%;
+}
+
 .card-text {
     font-size: 20px;
     padding-top: 20px;
@@ -60,13 +67,16 @@ li {
 
 @media only screen and (min-width: 300px){
     body {
-        float: left;
         height: auto;
         width: 100% !important;
     }
     .card {
         height: auto;
-        Width: 100% !important;
+        width: 100% !important;
+    }
+    .card-body{
+        height: auto;
+        width: 100% !important;
     }
     .card-text{
         height: auto;
@@ -87,7 +97,6 @@ li {
 }
 @media only screen and (min-width: 768px){
     body {
-        float: left;
         height: auto;
         width: 100% !important;
     }
@@ -98,7 +107,6 @@ li {
 }
 @media only screen and (min-width: 992px){
     body {
-        float: left;
         height: auto;
         width: 100% !important;
     }
