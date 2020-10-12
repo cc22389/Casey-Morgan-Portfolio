@@ -1,3 +1,8 @@
+html{
+    position: relative;
+    min-height: 100%;
+}
+
 .navbar-light{ 
     padding-left: 10px;
     padding-right: 10px;
@@ -19,6 +24,8 @@ h1{
 
 body{
     background-image: url("./Images/grayLeaf.jpg");
+    margin-bottom: 60px;
+
 }
 
 .container {
@@ -73,7 +80,7 @@ ul{
         Width: 80% !important;
     }
 }
-@media only screen and (min-width: 992px){
+@media only screen and (max-width: 992px){
     body{
         width: 100% !important;
         height: auto;
@@ -82,4 +89,14 @@ ul{
         height: auto;
         Width: 80% !important;
     }
+}
+
+footer {
+    height: 40px;
+    background-color: gray;
+    border-top: solid;
+    border-top-color: rgb(4, 197, 197);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }

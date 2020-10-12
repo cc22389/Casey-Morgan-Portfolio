@@ -1,3 +1,7 @@
+html{
+    position: relative;
+    min-height: 100%;
+}
 .navbar-light{ 
     padding-left: 10px;
     padding-right: 10px;
@@ -19,6 +23,7 @@ h1{
 
 body{
     background-image: url("./Images/grayLeaf.jpg");
+    margin-bottom: 60px;
 }
 
 .container {
@@ -49,7 +54,11 @@ body{
     
 }
 
-@media only screen and (min-width: 400px){
+li {
+    list-style-type: none;
+}
+
+@media only screen and (min-width: 300px){
     body {
         float: left;
         height: auto;
@@ -58,6 +67,22 @@ body{
     .card {
         height: auto;
         Width: 100% !important;
+    }
+    .card-text{
+        height: auto;
+        width: 100% !important;
+    }
+    li {
+        height: 100%;
+        width: auto;
+    }
+    .container {
+        height: auto;
+        width: 100% !important;
+    }
+    #profile-picture {
+        height: 100% ;
+        width: auto;
     }
 }
 @media only screen and (min-width: 768px){
@@ -81,4 +106,14 @@ body{
         height: auto;
         Width: 100% !important;
     }
+}
+
+footer {
+    height: 40px;
+    background-color: gray;
+    border-top: solid;
+    border-top-color: rgb(4, 197, 197);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
