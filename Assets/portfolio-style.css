@@ -36,13 +36,15 @@ body{
     color: rgb(4, 197, 197);
     font-family: 'Times New Roman', Times, serif;
     font-weight:bold;
-    font-size:70px;    
+    font-size:60px;    
 }
 
 .card{
+    
     margin-left: 40px;
-    margin-top: 80px;
-    margin-right: 40px;    
+    margin-top: 60px;
+    margin-right: 40px;  
+    margin-bottom: 100px;  
     background-color: rgb(251, 252, 253);
     height: auto;
     width: 100%;
@@ -58,9 +60,8 @@ ul{
 }
 
 
-/* I understand the below @media css isn't finished, still confused on this... */
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 300px){
     body{
         width: 100% !important;
         height: auto;
@@ -69,6 +70,10 @@ ul{
         height: auto;
         Width: 80% !important;
     }
+    .card-title {
+        font-size: 50px !important;
+    }
+
 }
 @media only screen and (max-width: 768px){
     body{

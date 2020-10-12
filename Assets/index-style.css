@@ -34,14 +34,17 @@ body{
     color: rgb(4, 197, 197);
     font-family: 'Times New Roman', Times, serif;
     font-weight:bold;
-    font-size:70px;    
+    font-size:60px;    
 }
 
 .card{
     margin-left: 40px;
     margin-top: 60px;
     margin-bottom: 100px;
+    margin-right: 40px;
     background-color: rgb(251, 252, 253);
+    height: auto;
+    width: 100%;
 } 
 
 .card-body{
@@ -57,7 +60,7 @@ body{
 #profile-picture{
     float: left;
     padding: 15px;
-    width: 100%
+    width: 100%;
     
 }
 
@@ -72,15 +75,14 @@ li {
     }
     .card {
         height: auto;
-        width: 100% !important;
+        width: 80% !important;
     }
-    .card-body{
-        height: auto;
-        width: 100% !important;
+    .card-title {
+        font-size: 50px;
     }
     .card-text{
         height: auto;
-        width: 100% !important;
+        width: 80% !important;
     }
     li {
         height: 100%;
@@ -91,9 +93,11 @@ li {
         width: 100% !important;
     }
     #profile-picture {
-        height: 100% ;
-        width: auto;
+        height: auto ;
+        width:  100% !important;
     }
+
+    
 }
 @media only screen and (min-width: 768px){
     body {
@@ -102,7 +106,7 @@ li {
     }
     .card {
         height: auto;
-        Width: 100% !important;
+        Width: 80% !important;
     }
 }
 @media only screen and (min-width: 992px){
@@ -112,7 +116,7 @@ li {
     }
     .card {
         height: auto;
-        Width: 100% !important;
+        Width: 80% !important;
     }
 }
 
