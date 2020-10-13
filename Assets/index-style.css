@@ -95,6 +95,7 @@ li {
     #profile-picture {
         height: auto ;
         width:  100% !important;
+        max-width: 300px;
     }
 
     
