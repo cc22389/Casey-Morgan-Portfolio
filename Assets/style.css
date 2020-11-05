@@ -1,0 +1,98 @@
+html{
+    position: relative;
+    min-height: 100%;
+}
+
+.navbar {
+    background-color: black !important;
+}
+
+.navbar .navbar-toggler .navbar-toggler-icon {
+    background-color: white !important;
+}
+
+.C, .M {
+    font-size: 60px;
+}
+.asey, .organ {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navbar-light{ 
+    border-bottom: solid;
+    border-bottom-color: white;
+}
+
+.navbar-nav{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+}
+
+.nav-link {
+    color: rgb(23, 84, 124) !important;
+}
+
+body{
+    background-image: url("./Images/northern.jpg");
+    margin-bottom: 60px;
+}
+
+.container {
+    float: left;
+}
+
+.card-title{
+    color: rgb(23, 84, 124);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:50px; 
+}
+
+.card{
+    margin-left: 40px;
+    margin-top: 60px;
+    margin-right: 40px;  
+    margin-bottom: 100px;  
+    background-color: rgb(251, 252, 253);
+    height: auto;
+    width: 100%;
+}
+
+.card-text {
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.PWG {
+    height: auto;
+    width: 80%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.profile {
+    flex: 50%;
+    padding: 10px;
+}
+
+#proPic {
+    width: 100%;
+}
+
+
+footer {
+    height: 40px;
+    background-color:black;
+    border-top: solid;
+    border-top-color:white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
